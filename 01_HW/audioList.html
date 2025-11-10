@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Audio List</title>
+    <link rel="stylesheet" href="audioList.css" />
+  </head>
+
+  <body>
+    <h1>My Favorite Songs</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Cover</th>
+          <th>Title</th>
+          <th>Artist</th>
+          <th>Year</th>
+          <th>Play</th>
+          <th>Download</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Milky Chance -->
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Milky_Chance_-_Stolen_Dance.jpg/250px-Milky_Chance_-_Stolen_Dance.jpg"
+              width="80"
+            />
+          </td>
+          <td>Stolen Dance</td>
+          <td>Milky Chance</td>
+          <td>2013</td>
+          <td>
+            <audio controls>
+              <source src="AudioFiles/stolen_dance.mp3" type="audio/mpeg" />
+            </audio>
+          </td>
+          <td><a href="AudioFiles/stolen_dance.mp3" download>Download</a></td>
+        </tr>
+
+        <!-- Bruno Mars -->
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Mark_Ronson_-_Uptown_Funk_%28feat._Bruno_Mars%29_%28Official_Single_Cover%29.png/250px-Mark_Ronson_-_Uptown_Funk_%28feat._Bruno_Mars%29_%28Official_Single_Cover%29.png"
+              width="80"
+            />
+          </td>
+          <td>Uptown Funk</td>
+          <td>Bruno Mars</td>
+          <td>2014</td>
+          <td>
+            <audio controls>
+              <source src="AudioFiles/uptown_funk.mp3" type="audio/mpeg" />
+            </audio>
+          </td>
+          <td><a href="AudioFiles/uptown_funk.mp3" download>Download</a></td>
+        </tr>
+
+        <!-- George Ezra -->
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Budapest-cover-George-Ezra.jpg/250px-Budapest-cover-George-Ezra.jpg"
+              width="80"
+            />
+          </td>
+          <td>Budapest</td>
+          <td>George Ezra</td>
+          <td>2014</td>
+          <td>
+            <audio controls>
+              <source src="AudioFiles/budapest.mp3" type="audio/mpeg" />
+            </audio>
+          </td>
+          <td><a href="AudioFiles/budapest.mp3" download>Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
