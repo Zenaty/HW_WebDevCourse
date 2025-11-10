@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Audio List</title>
-    <link rel="stylesheet" href="SKINS/dark.css" />
+    <!-- הוספנו ID כדי ש-JS יוכל לשנות את הקובץ -->
+    <link id="skinLink" rel="stylesheet" href="SKINS/modern.css" />
   </head>
 
   <body>
     <h1>My Favorite Songs</h1>
+
+    <!-- 👇 הכפתור החדש -->
+    <button id="changeSkinBtn">Change Skin</button>
 
     <table>
       <thead>
@@ -80,5 +84,8 @@
         </tr>
       </tbody>
     </table>
+
+    <!-- 👇 קובץ ה-JavaScript -->
+    <script src="audioList.js"></script>
   </body>
 </html>
