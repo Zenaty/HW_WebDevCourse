@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border: 2px solid #000000;
+  width: 400px;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 8px; /* מרווח */
+}
+
+.header {
+  background-color: #005f8f; /* כחול כהה */
+  color: white; /* טקסט לבן */
+  font-weight: bold;
+  padding: 10px;
+}
+
+td.label {
+  width: 100px;
+  font-weight: bold;
+  color: #005f8f; /* צבע כחול עדין ללייבלים */
+}
+
+.input-field {
+  width: 95%;
+  padding: 5px;
+}
+
+textarea.input-field {
+  height: 80px;
+}
+
+.send {
+  text-align: center;
+  background-color: #f0f0f0; /* רקע אפור בהיר */
+}
+
+.sendButton {
+  background-color: #005f8f; /* כפתור כחול */
+  color: white;
+  padding: 6px;
+}
