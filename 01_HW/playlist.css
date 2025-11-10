@@ -1,3 +1,23 @@
+.song-link {
+  color: #1a0dab;
+}
+
+.song-link:hover {
+  color: #ff0000;
+}
+
+.row-painter {
+  background-color: #cce7ff;
+  color: #003366;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.title-style {
+  background-color: #1a73e8;
+  color: white;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f7fa;
